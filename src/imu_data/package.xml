@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>imu_data</name>
+  <version>0.0.1</version>
+  <description>
+  Package to simulate the publishing of data from /imy/rpy, /imu/data, and /imu/mag
+  </description>
+
+  <maintainer email="estesjn2020@gmail.com">Joshua Estes</maintainer>
+  <license>BSD</license>
+
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>geometry_msgs</build_depend>
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+
+  
+</package>
