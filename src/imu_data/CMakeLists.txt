@@ -36,7 +36,7 @@ catkin_package()
 
 include_directories(include ${catkin_INCLUDE_DIRS} Fusion/include)
 
-set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -Wc99-designator")
+set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
 
 add_executable(imu_mag src/imu_mag.cpp)
 target_link_libraries(imu_mag ${catkin_LIBRARIES})
